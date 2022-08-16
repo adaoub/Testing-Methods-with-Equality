@@ -12,7 +12,3 @@ class Gratitudes
     formatted += @gratitudes.join(", ")
   end
 end
-
-example = Gratitudes.new
-result = example.add("life, sport, work")
-puts example.format
